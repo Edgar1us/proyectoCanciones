@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="329dp"
+        android:background="#00FF0000"
+        android:contentDescription="@string/pearl_jam"
+        android:src="@drawable/sticky"
+        android:tint="#00FF0000" />
+
+    <fragment
+        android:id="@+id/fragment_discos"
+        android:name="edbeca.simarro.proyectocanciones.fragment_discos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_discos" />
+
+</LinearLayout>
